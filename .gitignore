@@ -1,0 +1,19 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+
+# Build folders
+bin/
+obj/
+Debug/
+Release/
+
+# Temporary files
+*.log
+Temp/
+Tmp/
+
+# Environment files
+.env
+.env.*
