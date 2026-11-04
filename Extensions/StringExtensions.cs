@@ -2,8 +2,8 @@
 
 public static class StringExtensions
 {
-    public static string ToCleanName(this string value)
+    public static string ToCleanName(this string? value)
     {
-        return value.Trim();
+        return value?.Trim() ?? string.Empty;
     }
 }
